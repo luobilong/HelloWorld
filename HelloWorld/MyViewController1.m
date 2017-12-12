@@ -16,6 +16,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    printf("123");
     // Do any additional setup after loading the view.
 }
 
