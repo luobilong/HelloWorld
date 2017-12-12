@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D4B9DB1FDA89DD000ACA82 /* MyViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4B9DA1FDA89DD000ACA82 /* MyViewController1.m */; };
+		32D4B9DE1FDA8A08000ACA82 /* MyViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 32D4B9DD1FDA8A08000ACA82 /* MyViewController2.m */; };
 		32DFEB551FD5B050001E57FA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DFEB541FD5B050001E57FA /* AppDelegate.m */; };
 		32DFEB581FD5B050001E57FA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 32DFEB571FD5B050001E57FA /* ViewController.m */; };
 		32DFEB5B1FD5B050001E57FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32DFEB591FD5B050001E57FA /* Main.storyboard */; };
@@ -35,6 +37,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		32D4B9D91FDA89DD000ACA82 /* MyViewController1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController1.h; sourceTree = "<group>"; };
+		32D4B9DA1FDA89DD000ACA82 /* MyViewController1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController1.m; sourceTree = "<group>"; };
+		32D4B9DC1FDA8A08000ACA82 /* MyViewController2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyViewController2.h; sourceTree = "<group>"; };
+		32D4B9DD1FDA8A08000ACA82 /* MyViewController2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyViewController2.m; sourceTree = "<group>"; };
 		32DFEB501FD5B050001E57FA /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		32DFEB531FD5B050001E57FA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		32DFEB541FD5B050001E57FA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +84,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32D4B9D51FDA84FA000ACA82 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		32DFEB471FD5B050001E57FA = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +114,7 @@
 		32DFEB521FD5B050001E57FA /* HelloWorld */ = {
 			isa = PBXGroup;
 			children = (
+				32D4B9D51FDA84FA000ACA82 /* New Group */,
 				32DFEB531FD5B050001E57FA /* AppDelegate.h */,
 				32DFEB541FD5B050001E57FA /* AppDelegate.m */,
 				32DFEB561FD5B050001E57FA /* ViewController.h */,
@@ -110,6 +124,10 @@
 				32DFEB5E1FD5B050001E57FA /* LaunchScreen.storyboard */,
 				32DFEB611FD5B050001E57FA /* Info.plist */,
 				32DFEB621FD5B050001E57FA /* main.m */,
+				32D4B9D91FDA89DD000ACA82 /* MyViewController1.h */,
+				32D4B9DA1FDA89DD000ACA82 /* MyViewController1.m */,
+				32D4B9DC1FDA8A08000ACA82 /* MyViewController2.h */,
+				32D4B9DD1FDA8A08000ACA82 /* MyViewController2.m */,
 			);
 			path = HelloWorld;
 			sourceTree = "<group>";
@@ -265,7 +283,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D4B9DB1FDA89DD000ACA82 /* MyViewController1.m in Sources */,
 				32DFEB581FD5B050001E57FA /* ViewController.m in Sources */,
+				32D4B9DE1FDA8A08000ACA82 /* MyViewController2.m in Sources */,
 				32DFEB631FD5B050001E57FA /* main.m in Sources */,
 				32DFEB551FD5B050001E57FA /* AppDelegate.m in Sources */,
 			);

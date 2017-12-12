@@ -8,8 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITextInputDelegate>
 
-
+@property (copy,nonatomic) NSString *userName;
 @end
 

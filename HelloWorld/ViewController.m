@@ -9,6 +9,9 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *textField;
+@property (weak, nonatomic) IBOutlet UILabel *label;
+- (IBAction)changeGreeting:(id)sender;
 
 @end
 
@@ -26,4 +29,19 @@
 }
 
 
+- (IBAction)changeGreeting:(id)sender {
+    self.userName=self.textField.text;
+    self.label.text=self.userName;
+    
+    UIStoryboard *story = [UIStoryboard storyboardWithName:@"Main" bundle:[NSBundle mainBundle]];
+    UINavigationController *view = [story instantiateViewControllerWithIdentifier:@"theOne"];
+    [self presentViewController:view animated:YES completion:nil];
+}
+
+-(BOOL)textFieldShouldReturn:(UITextField *)theTextField{
+    if(theTextField==self.textField){
+        [theTextField resignFirstResponder];
+    }
+    return YES;
+}
 @end
